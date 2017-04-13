@@ -1,0 +1,24 @@
+{
+  "name": "scrapperapp",
+  "version": "1.0.0",
+  "description": "Web Scraping with mongoose and momngoDB, Cheerio",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dab-in-Mongo"
+  },
+  "keywords": [
+    "scrapper"
+  ],
+  "author": "veenarekhi@att.net",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.9.4"
+  }
+}
