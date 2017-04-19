@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Scraping With Mongoose</title>
+
     <style>
       body { background-color: #F2F6D0 }
       #wrapper {
@@ -11,13 +12,13 @@
         margin-right: auto;
         padding-top: 5%;
       }
-      #articles {
+      #newsArticles {
         display: inline-block;
         overflow: auto;
         width: 60%;
         height: 700px;
       }
-      #notes {
+      #reviews {
         float: right;
         width: 30%;
       }
@@ -37,13 +38,18 @@
     </style>
   </head>
   <body>
-    <div id="wrapper">
-      <h1>News Scraper For Charlotte-Local News!!</h1>
-      <h2><i>Charlotte's happening channel!</i></h2>
-      <div id="articles"></div>
-      <div id="news"></div>
+  
+    <div class="container">
+            <h1>News Scraper For Charlotte-Local News!!</h1>
+            <h2><i>Charlotte's most-happening channel!</i></h2>
+              <div id="newsArticles">
+    </div>            
+    <div id="reviews">
     </div>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
+
+
+<!--- mongodb://heroku_xg5fsp8k:inijksvt1d9tal11u0uqn693mi@ds161190.mlab.com:61190/heroku_xg5fsp8k->
